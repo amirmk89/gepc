@@ -85,7 +85,7 @@ A shorter run with a fraction of the data can be done the verify everything is p
 ### Patch Training
 Use the following command (assuming a pre-extracted patch DB):
 ```
-python stc_train_eval.py --patch_db -ae_b 256 -dcec_b 256 -res_b 128 
+python stc_train_eval.py --patch_features --patch_db -ae_b 256 -dcec_b 256 -res_b 128 
 ```
 
 
